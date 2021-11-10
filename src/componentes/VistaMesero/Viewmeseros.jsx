@@ -22,6 +22,10 @@ const ViewMesero = () => {
   }
   const [state, setState] = useState(objOrder)
 
+/* const selectAdic = (product) => {
+  setState((prev) =>({...prev, products: [...prev.products, product]}))
+} */
+
 const selectProduct = (product) => {
   setState((prev) =>({...prev, products: [...prev.products, product]}))
 }
@@ -59,6 +63,7 @@ return(
             selectProduct={selectProduct}
             state={state}
             handleQuantity={handleQuantity}
+            
           />
         </div>
 

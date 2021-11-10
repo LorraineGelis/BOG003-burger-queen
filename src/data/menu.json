@@ -33,7 +33,7 @@
       "name": "Hamburguesa simple de res",
       "price": "12000",
       "type": "Hamburguesas",
-      "extra": ["Queso", "Huevo"],
+      "extra": [{"name": "Queso", "id": "1" , "price": "1000"}, {"name": "Huevo", "id": "2", "price": "1000"}],
       "img":"./img/burguerBeef.png"
     },
     {
@@ -41,7 +41,7 @@
       "name": "Hamburguesa doble de res",
       "price": "20000",
       "type": "Hamburguesas",
-      "extra": ["Queso", "Huevo"],
+      "extra": [{"name": "Queso", "id": "1" , "price": "1000"}, {"name": "Huevo", "id": "2", "price": "1000"}],
       "img":"./img/burguerBeef.png"
     },
     {
@@ -49,7 +49,7 @@
       "name": "Hamburguesa simple de pollo",
       "price": "12000",
       "type": "Hamburguesas",
-      "extra": ["Queso", "Huevo"],
+      "extra": [{"name": "Queso", "id": "1" , "price": "1000"}, {"name": "Huevo", "id": "2", "price": "1000"}],
       "img":"./img/burguerChicken.png"
     },
     {
@@ -57,7 +57,7 @@
       "name": "Hamburguesa doble de pollo",
       "price": "20000",
       "type": "Hamburguesas",
-      "extra": ["Queso", "Huevo"],
+      "extra": [{"name": "Queso", "id": "1" , "price": "1000"}, {"name": "Huevo", "id": "2", "price": "1000"}],
       "img":"./img/burguerChicken.png"
     },
     {
@@ -65,7 +65,7 @@
       "name": "Hamburguesa simple vegetariana",
       "price": "12000",
       "type": "Hamburguesas",
-      "extra": ["Queso", "Huevo"],
+      "extra": [{"name": "Queso", "id": "1" , "price": "1000"}, {"name": "Huevo", "id": "2", "price": "1000"}],
       "img": "./img/burguerBeef.png"
     },
     {
@@ -73,7 +73,7 @@
       "name": "Hamburguesa doble vegetariana",
       "price": "20000",
       "type": "Hamburguesas",
-      "extra": ["Queso", "Huevo"],
+      "extra": [{"name": "Queso", "id": "1" , "price": "1000"}, {"name": "Huevo", "id": "2", "price": "1000"}],
       "img":"./img/burguerBeef.png"
     },
     {
