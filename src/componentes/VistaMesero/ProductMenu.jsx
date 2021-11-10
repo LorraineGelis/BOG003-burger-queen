@@ -8,7 +8,7 @@ const Product = ({ state, handleQuantity, selectProduct, product, }) => {
         for (let [key] of data.entries()) {
             //console.log(key + "algoaqui");
              if(key === "1"){
-                //console.log("presiono Queso")
+                console.log("presiono Queso")
                  //selectProduct({ ...product, amount: 0 });
             } else if(key === "2"){
                 console.log("presiono huevo")
