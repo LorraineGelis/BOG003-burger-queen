@@ -38,8 +38,9 @@ const ChefChangeOrder = ({ order, foodList }) => {
                       </tr>
                     ))
                     : null}
-                
                 </tbody>
+
+                <p className="text-center" >Comentarios Adicionales: {order.comments}</p>
             </>
           </table>
   

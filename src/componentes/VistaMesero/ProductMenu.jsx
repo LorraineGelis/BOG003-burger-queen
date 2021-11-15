@@ -1,16 +1,17 @@
+
 import React from 'react';
 
-const Product = ({ state, handleQuantity, selectProduct, product, }) => {
+const Product = ({ state, handleQuantity, selectProduct, product, selectExtra }) => {
 
     const addProducts = (e, id) => {
         e.preventDefault();
         const data = new FormData(e.target);
-        for (let [key] of data.entries()) {
+        for (let [key, value] of data.entries()) {
             //console.log(key + "algoaqui");
-             if(key === "1"){
-                console.log("presiono Queso")
-                 //selectProduct({ ...product, amount: 0 });
-            } else if(key === "2"){
+             if(key && value === "1"){
+                //console.log("presiono Queso")
+                 selectExtra({  amount: 0 });
+            } else if(key && value === "2"){
                 console.log("presiono huevo")
             }
         }

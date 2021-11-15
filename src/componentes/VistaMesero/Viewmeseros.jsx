@@ -18,13 +18,14 @@ const ViewMesero = () => {
     timeInit: orderTime(),
     orderDateTime: orderDateTime(),
     PriceTotal: 0,
+    comments: '',
   
   }
   const [state, setState] = useState(objOrder)
 
-/* const selectAdic = (product) => {
+/*  const selectExtra = (product) => {
   setState((prev) =>({...prev, products: [...prev.products, product]}))
-} */
+}  */
 
 const selectProduct = (product) => {
   setState((prev) =>({...prev, products: [...prev.products, product]}))
@@ -63,6 +64,7 @@ return(
             selectProduct={selectProduct}
             state={state}
             handleQuantity={handleQuantity}
+            //selectExtra={selectExtra}
             
           />
         </div>

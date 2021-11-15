@@ -106,6 +106,13 @@ import Form from 'react-bootstrap/Form';
                   }}>
                     👩‍🍳 Enviar a cocina
                   </button>
+
+                  <input type="text"
+                name="comments"
+                onChange={handleInputChange}
+                value={state.comments}
+                placeholder="Agrega un comentario"
+                 />
                 </>
                 : ''
             }

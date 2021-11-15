@@ -49,6 +49,9 @@ import { updateStatusOrder  } from '../../firebase/firestore'
                       </tr>
                     ))
                     : null}
+                    <div>
+                    <p class="card-text mt-3">Comentarios:  {orderToCooked.comments}</p>
+                    </div>
                 
                 </tbody>
               </table>

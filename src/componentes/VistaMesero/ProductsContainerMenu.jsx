@@ -43,9 +43,11 @@ const ProductsContainer = ({ selectProduct, state, handleQuantity }) => {
                     <Product
                         product={product}
                         selectProduct={selectProduct}
+                        //selectExtra={selectExtra}
                         key={product.id}
                         state={state}
                         handleQuantity={handleQuantity}
+
                         
                         
                          />
