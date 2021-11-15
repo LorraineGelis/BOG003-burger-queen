@@ -12,7 +12,7 @@ import { updateStatusOrder  } from '../../firebase/firestore'
     }
   }
 
-   const foodReadyDeliver = (id) => {
+  const foodReadyDeliver = (id) => {
     updateStatusOrder(id, orderToCooked.status = 'delivered')
     callParent()
   }; 
@@ -22,7 +22,7 @@ import { updateStatusOrder  } from '../../firebase/firestore'
       {
         (orderToCooked.status === 'OrderPending' || orderToCooked.status === 'OrderReady') ?
           
-          <div class="card col-3 m-2" >
+          <div class="card col-md-3 col-lg-3 m-2" >
             <div class="card-body">
               <div className="container-date">
                 <p class="card-text">{orderToCooked.dateInit}</p>
